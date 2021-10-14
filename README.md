@@ -34,6 +34,8 @@ IgNews uses these projects to work properly:
 
 ### Create and configure the following third party services:
 
+- [Google]
+- [GitHub]
 - [Stripe]
 - [FaunaDB]
 - [Prismic]
@@ -107,4 +109,6 @@ MIT
    [Stripe]: <https://stripe.com/>
    [Prismic]: <https://prismic.io/>
    [FaunaDB]: <https://fauna.com/>
+   [Google]: <https://www.google.com>
+   [GitHub]: <https://www.github.com>
 
