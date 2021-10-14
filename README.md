@@ -1,16 +1,39 @@
-# IGNews
-## _React world news portal_
+# IGNews: _THE React world news portal_
 
+## Topics:
+
+  - [Topics:](#topics)
+  - [Live Demo](#live-demo)
+  - [About](#about)
+  - [Features](#features)
+  - [Techs](#techs)
+  - [Requeriments](#requeriments)
+    - [Third party services](#create-and-configure-the-following-third-party-services)
+    - [Software](#necessary-software)
+  - [Installation](#installation)
+- [Setup](#setup)
+  - [dotenv file](#setting-up-dotenv-file)
+  - [License](#license)
+
+
+___---___
+## Live Demo
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/db4e8cd5-5e11-4749-9614-ecd4805da563/deploy-status)](https://app.netlify.com/sites/ignews-cl/deploys)
+
+https://ignews-cl.netlify.app/
+
+___
 ## About
 
-The idea behind this project is to create a news portal using the most modern technologies like NextJS 
+The idea behind this project is to create a news portal using the most avaiable modern technologies.
 
-This project was consists in an application developed with ReactJS and NextJS to present posts and control the access through a subscription system
+This project consists in an application developed with ReactJS and NextJS to present posts and control the access through a subscription system.
 
 We used NextJS framework by aplying concepts like external API, API Root, Server Side Rendering (SSR), Static Site Generation (SSG) and Next-Auth.
 We also used 3rd party services like FaunaDB to store user data, Prismic CSM to manage post content and Stripe as the payment gateway.
 
-
+___
 ## Features
 
 - OAuth authentication 2.0 (Github and Google)
@@ -18,6 +41,7 @@ We also used 3rd party services like FaunaDB to store user data, Prismic CSM to 
 - Payment Gateway integration
 - Headless CMS Integration
 
+___
 ## Techs
 
 IgNews uses these projects to work properly:
@@ -30,6 +54,7 @@ IgNews uses these projects to work properly:
 - [Prismic] - Headless CMS
 - [FaunaDB] - Transactional database accessible via a cloud API.
 
+___
 ## Requeriments
 
 ### Create and configure the following third party services:
@@ -46,6 +71,7 @@ IgNews uses these projects to work properly:
 - [Yarn](https://classic.yarnpkg.com)
 - [Stripe CLI](https://stripe.com/docs/stripe-cli)
 
+___
 ## Installation
 
 IgNews requires [Node.js] v14+ to run.
@@ -72,8 +98,10 @@ $ stripe listen --forward-to localhost:3000/api/webhooks
 # Run the application
 $ yarn dev
 ```
+___
+## Setup
 
-# Setting up dotenv file
+### Setting up dotenv file
 
 To everything work properly, we need to define a .env file with the following entries:
 
@@ -92,9 +120,7 @@ To everything work properly, we need to define a .env file with the following en
 | PRISMIC_ENDPOINT | Endpoint created on Prismic | 
 | PRISMIC_ACCESS_TOKEN | Token used to access Prismic API|
 
-
-
-
+___
 ## License
 
 MIT
