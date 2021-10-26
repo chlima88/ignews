@@ -80,7 +80,7 @@ Install the dependencies and devDependencies and start the server.
 
 ```sh
 # Clone the repository
-$ git clone https://github.com/nelsonsantosaraujo/ignews.git
+$ git clone https://github.com/chlima88/ignews.git
 
 # Acess the repository folder
 $ cd ignews
